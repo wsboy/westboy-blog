@@ -1,15 +1,41 @@
-# WestBoy Blog
+# WestBoy's Blog
 
-*welcome to you !* 
+### 基础重点
 
+* [基础部分]()
+* [并发编程]()
+* [IO/NIO]()
+* [算法与数据结构]()
 
 ### Spring 系列
 
 * [Spring]()
 * [SpringMVC]()
-* [SpringBoot ]()
+* [SpringBoot]()
+* [SpringCloud]()
 
-### 项目管理
 
-* [使用 Swagger 构建 RESTful API 文档]()
-* Swagger 和 GitLab 结合做 API 文档（后期补充）
+### 分布式系列
+
+* [Zookeeper]()
+* [Dubbo]()
+* [Redis]()
+* [MongoDB]()
+* [MQ]()
+* [分布式事物]()
+* [分库分表]()
+
+### 性能优化
+
+* [MySQL]()
+* [JVM]()
+* [Tomcat]()
+
+### 工程系列
+
+* [Jenkins]()
+* [Maven]()
+* [Gradle]()
+* [Git]()
+* [Swagger]()
+
