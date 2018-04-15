@@ -19,9 +19,16 @@
 
 * [Zookeeper]()
 * [Dubbo]()
+
+#### 缓存
+* [基础](repository/distribution/cache/基础.md)
 * [Redis]()
 * [MongoDB]()
+
+#### 消息中间件
 * [MQ]()
+
+#### 重点
 * [分布式事物]()
 * [分库分表]()
 
