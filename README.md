@@ -1,6 +1,6 @@
 # WestBoy's Blog
 
-## 基础重点
+## Java 基础系列
 
 * [基础部分]()
 * [并发编程]()
@@ -19,20 +19,12 @@
 
 * [Zookeeper]()
 * [Dubbo]()
-
-### 缓存
-* [基础](repository/distribution/cache/基础.md)
-* [Redis]()
-* [MongoDB]()
-
-### 消息中间件
+* [Cache](repository/分布式系列/cache/index.md)
 * [MQ]()
-
-### 重点
 * [分布式事物]()
 * [分库分表]()
 
-## 性能优化
+## 性能优化系列
 
 * [MySQL]()
 * [JVM]()
