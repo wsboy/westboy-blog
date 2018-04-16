@@ -127,6 +127,7 @@ protected <T, E extends Throwable> T doExecute(RetryCallback<T, E> retryCallback
 **对于无状态重试，这意味着产生异常，并不会将其抛出去，对于事务性调用，这是不可容忍的，因为上层框架需要获得异常进行事务的回滚操作，此时应当使用有状态重试。**
 
 ## 参考资料
+* [srping-try github](https://github.com/spring-projects/spring-retry)
 * [spring-retry重试与熔断详解—《亿级流量》内容补充](https://yq.aliyun.com/articles/92899)
 * [利用Spring-Retry定制化你的RPC重试](http://kriszhang.com/spring-retry/)
 
