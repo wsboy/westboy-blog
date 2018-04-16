@@ -2,7 +2,19 @@
 
 ## 基本概念
 
-spring-retry项目实现了重试和熔断功能，目前已用于SpringBatch、Spring Integration等项目。
+spring-retry项目实现了重试和熔断功能，目前已用于SpringBatch、Spring Integration等项目。其整体思路大致如下图所示：
+
+![](./img/img-004.png)
+
+* RetryTemplate：重试模板，是进入spring-retry框架的整体流程入口;
+* RetryCallback：重试回调，用户包装业务流，第一次执行和产生重试执行都会调用这个callback代码；
+* RetryPolicy：重试策略，不同策略有不同的重试方式；
+* BackOffPolicy：两次重试之间的退避策略，一般采用超时时间机制；
+* RecoveryCallback：当所有重试都失败后，回调该接口，提供给业务重试回复机制；
+* RetryContext：每次重试都会将其作为参数传入RetryCallback中使用；
+* RetryListener：监听重试行为，主要用于监控。
+
+当RetryCallback的调用产生异常的时候，框架首先会通过我们设置的RetryPolicy判断本次异常是否需要重试，如果需要重试，则调用BackOffPolicy，回退一定时间后，在重新调用RetryCallback。如果所有重试都失败了，则退出重试，调用RecoveryCallback退出服务。
 
 ![](./img/img-001.png)
 
@@ -42,7 +54,7 @@ RetryPolicy提供了如下策略实现：
 * ExpressionRetryPolicy：使用表达式匹配重试策略。
 * TimeoutRetryPolicy：超时时间重试策略，默认超时时间为1秒，在指定的超时时间内允许重试；
 * ExceptionClassifierRetryPolicy：设置不同异常的重试策略，类似组合重试策略，区别在于这里只区分不同异常的重试；
-* CompositeRetryPolicy：组合重试策略，有两种组合方式，乐观组合重试策略是指顺序遍历配置的组合策略如果有一个策略允许重试就可以重试，悲观组合重试策略则只要有一个策略不允许重试就不可以重试。
+* CompositeRetryPolicy：组合重试策略，将不同的策略组合起来，有两种组合方式，乐观组合重试策略是指顺序遍历配置的组合策略如果有一个策略允许重试就可以重试，悲观组合重试策略则只要有一个策略不允许重试就不可以重试。
 * CircuitBreakerRetryPolicy：有熔断功能的重试策略，需设置3个参数openTimeout、resetTimeout和delegate，稍后详细介绍该策略；
 * NeverRetryPolicy：只允许调用RetryCallback一次，不允许重试；
 * AlwaysRetryPolicy：允许无限重试，直到成功，此方式逻辑不当会导致死循环。
@@ -63,9 +75,7 @@ BackOffPolicy提供了如下策略实现：
 接下来先看下RetryTemplate主要流程实现：
 
 ```java
-protected <T, E extends Throwable> T doExecute(RetryCallback<T, E> retryCallback,
-      RecoveryCallback<T> recoveryCallback, RetryState state)
-      throws E, ExhaustedRetryException {
+protected <T, E extends Throwable> T doExecute(RetryCallback<T, E> retryCallback,RecoveryCallback<T> recoveryCallback, RetryState state) throws E, ExhaustedRetryException {
    //重试策略
    RetryPolicy retryPolicy = this.retryPolicy;
    //退避策略
@@ -111,3 +121,11 @@ protected <T, E extends Throwable> T doExecute(RetryCallback<T, E> retryCallback
    }
 }
 ```
+
+## 有状态or无状态
+
+**对于无状态重试，这意味着产生异常，并不会将其抛出去，对于事务性调用，这是不可容忍的，因为上层框架需要获得异常进行事务的回滚操作，此时应当使用有状态重试。**
+
+## 参考资料
+* [spring-retry重试与熔断详解—《亿级流量》内容补充](https://yq.aliyun.com/articles/92899)
+* [利用Spring-Retry定制化你的RPC重试](http://kriszhang.com/spring-retry/)
