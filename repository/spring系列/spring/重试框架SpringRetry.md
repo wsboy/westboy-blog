@@ -129,3 +129,7 @@ protected <T, E extends Throwable> T doExecute(RetryCallback<T, E> retryCallback
 ## 参考资料
 * [spring-retry重试与熔断详解—《亿级流量》内容补充](https://yq.aliyun.com/articles/92899)
 * [利用Spring-Retry定制化你的RPC重试](http://kriszhang.com/spring-retry/)
+
+#
+
+———— ☆☆☆ —— 返回 -> [spring](./index.md) <- 目录 —— ☆☆☆ ————
