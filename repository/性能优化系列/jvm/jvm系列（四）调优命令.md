@@ -1,3 +1,11 @@
+常用的jvm调优命令如下：
+
+* jps
+* jstack
+* jstat
+
+下面我们详细介绍一下以上常用调优命令。
+
 ## jps(Java Virtual Machine Process Status Tool)
 
 用于输出VM中运行的进程状态信息，语法格式如下：
@@ -45,11 +53,5 @@
 	......
 ```
 
-## jstack
-
-jstack主要用来查看某个Java进程内的线程堆栈信息。语法格式如下：
-
-#
-
-———— ☆☆☆ —— 返回 -> [JVM](./index.md) <- 目录 —— ☆☆☆ ————
+———— ☆☆☆ —— 返回 -> [JVM](index.md) <- 目录 —— ☆☆☆ ————
 
