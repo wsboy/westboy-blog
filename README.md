@@ -1,11 +1,11 @@
 # WestBoy's Blog
 
-## Java 基础系列
+## 基础重点
 
 * [基础部分]()
 * [并发编程]()
-* [IO/NIO]()
 * [算法与数据结构]()
+* [设计模式](repository/基础重点/设计模式/index.md)
 
 ## Spring 系列
 
