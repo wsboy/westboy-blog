@@ -10,26 +10,28 @@
 ## Spring 系列
 
 * [Spring](repository/spring系列/spring/index.md)
-* [Spring Batch]()
-* [Spring MVC]()
-* [Spring Boot]()
-* [Spring Cloud]()
+* [SpringBatch]()
+* [SpringMVC]()（近期任务1）
+* [SpringBoot]()
+* [SpringCloud]()
 
 
 ## 分布式系列
 
 * [Zookeeper]()
 * [Dubbo]()
-* [Cache](repository/分布式系列/cache/index.md)
+* [Cache](repository/分布式系列/cache/index.md)（近期任务4）
 * [MQ]()
 * [分布式事物]()
 * [分库分表]()
+* [Nginx]()
+* [Docker]()
 
 ## 性能优化系列
 
 * [MySQL]()
 * [JVM](repository/性能优化系列/jvm/index.md)
-* [Tomcat]()
+* [Tomcat]()（近期任务3）
 
 ## 工程系列
 
@@ -37,5 +39,5 @@
 * [Maven]()
 * [Gradle]()
 * [Git]()
-* [Swagger]()
+* [Swagger]()（近期任务2）
 
