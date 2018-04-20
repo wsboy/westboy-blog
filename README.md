@@ -41,9 +41,10 @@
 * [Git]()
 * [Swagger]()（近期任务2）
 
-## UNDER WAY
+## 其他
 
-* [个人书单](repository/under-way/个人书单.md)
+* [个人书单](repository/其他/个人书单.md)
+* [面试](repository/其他/面试.md)
 
 
 
