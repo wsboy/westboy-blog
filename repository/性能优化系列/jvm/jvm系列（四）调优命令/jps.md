@@ -1,12 +1,6 @@
-常用的jvm调优命令如下：
+# jps(Java Virtual Machine Process Status Tool)
 
-* jps
-* jstack
-* jstat
-
-下面我们详细介绍一下以上常用调优命令。
-
-## jps(Java Virtual Machine Process Status Tool)
+## 1.基本介绍及命令格式
 
 用于输出VM中运行的进程状态信息，语法格式如下：
 
@@ -20,6 +14,8 @@
 * -m 输出传入main方法的参数
 * -l 输出main方法所在类的全限名和main方法的参数
 * -v 输出传入JVM的参数
+
+## 2.示例
 
 ```shell
 # jps
@@ -53,5 +49,4 @@
 	......
 ```
 
-———— ☆☆☆ —— 返回 -> [jvm系列](index.md) <- 目录 —— ☆☆☆ ————
-
+———— ☆☆☆ —— 返回 -> [westboy-jvm系列（四）调优命令](index.md) <- 目录 —— ☆☆☆ ————
