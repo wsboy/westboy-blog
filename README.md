@@ -11,7 +11,7 @@
 
 * [Spring](repository/spring系列/spring/index.md)
 * [SpringBatch]()
-* [SpringMVC]()（近期任务1）
+* [SpringMVC](repository/spring系列/spring-mvc/index.md)（近期任务1）
 * [SpringBoot]()
 * [SpringCloud]()
 
