@@ -31,7 +31,7 @@
 
 * [MySQL]()
 * [JVM](repository/性能优化系列/jvm/index.md)
-* [Tomcat]()（近期任务3）
+* [Tomcat](repository/性能优化系列/tomcat/index.md)（近期任务3）
 
 ## 工程系列
 
