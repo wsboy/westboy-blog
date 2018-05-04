@@ -9,7 +9,7 @@
 
 **专栏**
 
-1. [Java Collection Framework 源码分析](repository/基础重点/基础部分/Java%20Collection%20Framework%20源码分析)
+1. [Java Collection Framework 源码分析](repository/基础重点/基础部分/Java%20Collection%20Framework%20源码分析/index.md)
 
 
 ## Spring 系列
