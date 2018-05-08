@@ -1,22 +1,17 @@
-* 关于正向代理与反向代理
-    - 正向代理
-    - 反向代理
-* 常用的Web服务器介绍
-    - 动态Web服务器：Tomcat
-    - 静态Web服务器：
-    - 动态&静态差异： 
-* 安装Nginx
-* Nginx的核心配置
-* 虚拟主机配置
-    - 基于域名的虚拟主机
-    - 基于IP的虚拟主机
-    - 基于端口号的虚拟主机
-* Nginx的日志配置
-    - 日志切割
-* Location的语法和匹配规则
-    - 精准匹配
-    - 一般匹配
-    - 正则匹配
+# Nginx
+
+## 学习笔记
+
+* [part-one](part-one.md) 
+    - 正向代理与反向代理
+    - 常用的Web服务器
+    - 安装Nginx
+    - Nginx的核心配置
+    - 虚拟主机配置
+    - Nginx的日志配置
+    - Location的语法和匹配规则
+* [part-two](part-two.md)
+* [part-three](part-three.md)
 
 
 
