@@ -1,6 +1,6 @@
 # WestBoy's Blog
 
-| [读书笔记](repository/其他/读书笔记/index.md) | [学习计划]() | [面试](repository/其他/面试/index.md)
+| **[读书笔记](repository/其他/读书笔记/index.md)** | **[学习计划]()** | **[面试](repository/其他/面试/index.md)** |
 
 ## 基础重点
 
