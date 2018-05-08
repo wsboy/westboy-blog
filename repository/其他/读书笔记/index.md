@@ -1,10 +1,11 @@
 # 读书笔记
 
+* [《数据结构与算法分析Java语言描述（第3版）》](数据结构与算法分析Java语言描述/index.md)
 * [《Effective Java》](Effective-Java笔记/index.md)
 * 《Java并发编程实战》
 * 《Java多线程编程核心技术》
 * 《Java并发编程的艺术》（一遍，但是实践太少，后续多看多实践）
-* 《Java 8实战》
+* 《Java8实战》
 * 《HTTP权威指南》
 * 《Spring实战（第4版）》（一遍，准备再结合源码看一遍）
 * [《看透SpringMVC源代码分析与实践》](看透SpringMVC源代码分析与实践笔记/index.md)（已看25%）

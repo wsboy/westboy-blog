@@ -32,7 +32,7 @@
 * [MQ](repository/分布式系列/mq/index.md)
 * [分布式事物]()
 * [分库分表]()
-* [Nginx](近期任务提前)
+* [Nginx](repository/分布式系列/nginx/index.md)(近期任务提前)
 * [Docker]()
 
 ## 性能优化系列
