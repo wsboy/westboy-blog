@@ -150,14 +150,6 @@ protected <T, E extends Throwable> T doExecute(RetryCallback<T, E> retryCallback
 }
 ```
 
-
-
-
-
-
-
-
-
 ## 参考资料
 
 * [srping-try github](https://github.com/spring-projects/spring-retry)

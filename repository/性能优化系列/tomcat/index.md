@@ -6,7 +6,7 @@
 * [Pipeline-Value管道]()
 * [Connector分析]()
 
-# 杂谈
+#
 * [Tomcat中使用到的设计模式](Tomcat中使用到的设计模式.md)
 
 #

@@ -1,5 +1,7 @@
 # WestBoy's Blog
 
+| [读书笔记](repository/其他/读书笔记/index.md) | [学习计划]() | [面试](repository/其他/面试/index.md)
+
 ## 基础重点
 
 * [基础部分](repository/基础重点/基础部分/index.md)
@@ -10,6 +12,7 @@
 **专栏**
 
 1. [Java Collection Framework 源码分析](repository/基础重点/基础部分/Java%20Collection%20Framework%20源码分析/index.md)
+2. [网络协议](repository/基础重点/基础部分/网络协议/index.md)
 
 
 ## Spring 系列
@@ -26,10 +29,10 @@
 * [Zookeeper]()
 * [Dubbo]()
 * [Cache](repository/分布式系列/cache/index.md)（近期任务4）
-* [MQ]()
+* [MQ](repository/分布式系列/mq/index.md)
 * [分布式事物]()
 * [分库分表]()
-* [Nginx]()
+* [Nginx](近期任务提前)
 * [Docker]()
 
 ## 性能优化系列
@@ -46,10 +49,7 @@
 * [Git]()
 * [Swagger]()（近期任务2）
 
-## 其他
 
-* [个人书单](repository/其他/个人书单.md)
-* [面试](repository/其他/面试.md)
 
 
 
