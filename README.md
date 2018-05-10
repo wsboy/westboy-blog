@@ -1,11 +1,5 @@
 # WestBoy's Blog
 
-| [Java基础]() | [并发编程]() | [算法与数据结构]() | [设计模式](repository/基础重点/设计模式/index.md) |
-
-| [Spring]() | [分布式]() | [性能优化]() | [读书笔记](repository/其他/读书笔记/index.md) | 
-
-| [读书笔记](repository/其他/读书笔记/index.md) | [学习计划]() | [Linux学习](repository/其他/Linux/index.md) | [面试](repository/其他/面试/index.md) |
-
 ## 基础重点
 
 * [基础部分](repository/基础重点/基础部分/index.md)
@@ -51,6 +45,16 @@
 * [Gradle]()
 * [Git]()
 * [Swagger]()（近期任务2）
+
+## Linux
+
+* [Linux](repository/其他/Linux/index.md) 
+
+##
+
+* [读书笔记](repository/其他/读书笔记/index.md)
+* [学习计划]()  
+* [面试](repository/其他/面试/index.md)
 
 
 
