@@ -1,6 +1,6 @@
 # WestBoy's Blog
 
-| **[读书笔记](repository/其他/读书笔记/index.md)** | **[学习计划]()** | **[面试](repository/其他/面试/index.md)** |
+| [读书笔记](repository/其他/读书笔记/index.md) | [学习计划]() | [Linux学习](repository/其他/Linux/index.md) | [面试](repository/其他/面试/index.md) |
 
 ## 基础重点
 
@@ -15,14 +15,13 @@
 2. [网络协议](repository/基础重点/基础部分/网络协议/index.md)
 
 
-## Spring 系列
+## Spring系列
 
 * [Spring](repository/spring系列/spring/index.md)
 * [SpringBatch]()
 * [SpringMVC](repository/spring系列/spring-mvc/index.md)（近期任务1）
 * [SpringBoot]()
 * [SpringCloud]()
-
 
 ## 分布式系列
 
@@ -48,6 +47,7 @@
 * [Gradle]()
 * [Git]()
 * [Swagger]()（近期任务2）
+
 
 
 
